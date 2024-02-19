@@ -11,7 +11,7 @@ import SwiftUI
 struct ScriptApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImportScriptView()
         }
     }
 }

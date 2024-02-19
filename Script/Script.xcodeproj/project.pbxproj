@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B46942C42B83946800CD2039 /* ImportScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46942C32B83946800CD2039 /* ImportScriptView.swift */; };
 		B46942C62B83947500CD2039 /* LibraryScriptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46942C52B83947500CD2039 /* LibraryScriptsView.swift */; };
+		B46942C82B83D72500CD2039 /* ScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46942C72B83D72500CD2039 /* ScriptView.swift */; };
+		B46942CB2B83D7D200CD2039 /* lorem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B46942C92B83D7D200CD2039 /* lorem.pdf */; };
+		B46942CF2B83D86600CD2039 /* blank.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B46942CE2B83D86600CD2039 /* blank.pdf */; };
 		B4DF3A522B7F76A7003A888F /* ScriptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF3A512B7F76A7003A888F /* ScriptApp.swift */; };
 		B4DF3A542B7F76A7003A888F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF3A532B7F76A7003A888F /* ContentView.swift */; };
 		B4DF3A562B7F76A9003A888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF3A552B7F76A9003A888F /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* Begin PBXFileReference section */
 		B46942C32B83946800CD2039 /* ImportScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportScriptView.swift; sourceTree = "<group>"; };
 		B46942C52B83947500CD2039 /* LibraryScriptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScriptsView.swift; sourceTree = "<group>"; };
+		B46942C72B83D72500CD2039 /* ScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptView.swift; sourceTree = "<group>"; };
+		B46942C92B83D7D200CD2039 /* lorem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lorem.pdf; sourceTree = "<group>"; };
+		B46942CE2B83D86600CD2039 /* blank.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = blank.pdf; sourceTree = "<group>"; };
 		B4DF3A4E2B7F76A7003A888F /* Script.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Script.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DF3A512B7F76A7003A888F /* ScriptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptApp.swift; sourceTree = "<group>"; };
 		B4DF3A532B7F76A7003A888F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,8 +48,18 @@
 			children = (
 				B46942C32B83946800CD2039 /* ImportScriptView.swift */,
 				B46942C52B83947500CD2039 /* LibraryScriptsView.swift */,
+				B46942C72B83D72500CD2039 /* ScriptView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B46942CD2B83D7F000CD2039 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				B46942CE2B83D86600CD2039 /* blank.pdf */,
+				B46942C92B83D7D200CD2039 /* lorem.pdf */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 		B4DF3A452B7F76A7003A888F = {
@@ -68,6 +84,7 @@
 				B4DF3A5F2B7F801A003A888F /* Script.entitlements */,
 				B4DF3A512B7F76A7003A888F /* ScriptApp.swift */,
 				B4DF3A532B7F76A7003A888F /* ContentView.swift */,
+				B46942CD2B83D7F000CD2039 /* File */,
 				B4DF3A552B7F76A9003A888F /* Assets.xcassets */,
 				B46942C22B83944300CD2039 /* View */,
 				B4DF3A572B7F76A9003A888F /* Preview Content */,
@@ -142,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DF3A592B7F76A9003A888F /* Preview Assets.xcassets in Resources */,
+				B46942CF2B83D86600CD2039 /* blank.pdf in Resources */,
+				B46942CB2B83D7D200CD2039 /* lorem.pdf in Resources */,
 				B4DF3A562B7F76A9003A888F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46942C42B83946800CD2039 /* ImportScriptView.swift in Sources */,
+				B46942C82B83D72500CD2039 /* ScriptView.swift in Sources */,
 				B4DF3A542B7F76A7003A888F /* ContentView.swift in Sources */,
 				B4DF3A522B7F76A7003A888F /* ScriptApp.swift in Sources */,
 				B46942C62B83947500CD2039 /* LibraryScriptsView.swift in Sources */,

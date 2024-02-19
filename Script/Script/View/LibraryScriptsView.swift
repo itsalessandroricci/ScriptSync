@@ -28,15 +28,18 @@ struct LibraryScriptsView: View {
                     
                     VStack{
                         NavigationLink{
-                            ImportScriptView()
+                            ScriptView(resourceName: "lorem")
                         } label: {
                             Image("prova")
                                 .frame(width: 135, height: 174)
                                 .clipped()
                                 .foregroundColor(.gray)
                         }
-                        Text("New Script")
+                        Text("Script Title")
                             .font(.system(size: 25))
+                        Text("Author")
+                            .fontWeight(.light)
+                            .font(.system(size: 20))
                         
                     }
                     .padding(.trailing, 990)
