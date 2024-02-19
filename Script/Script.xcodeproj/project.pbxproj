@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46942C42B83946800CD2039 /* ImportScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46942C32B83946800CD2039 /* ImportScriptView.swift */; };
+		B46942C62B83947500CD2039 /* LibraryScriptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46942C52B83947500CD2039 /* LibraryScriptsView.swift */; };
 		B4DF3A522B7F76A7003A888F /* ScriptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF3A512B7F76A7003A888F /* ScriptApp.swift */; };
 		B4DF3A542B7F76A7003A888F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF3A532B7F76A7003A888F /* ContentView.swift */; };
 		B4DF3A562B7F76A9003A888F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF3A552B7F76A9003A888F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B46942C32B83946800CD2039 /* ImportScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportScriptView.swift; sourceTree = "<group>"; };
+		B46942C52B83947500CD2039 /* LibraryScriptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScriptsView.swift; sourceTree = "<group>"; };
 		B4DF3A4E2B7F76A7003A888F /* Script.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Script.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DF3A512B7F76A7003A888F /* ScriptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptApp.swift; sourceTree = "<group>"; };
 		B4DF3A532B7F76A7003A888F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B46942C22B83944300CD2039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B46942C32B83946800CD2039 /* ImportScriptView.swift */,
+				B46942C52B83947500CD2039 /* LibraryScriptsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B4DF3A452B7F76A7003A888F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 				B4DF3A512B7F76A7003A888F /* ScriptApp.swift */,
 				B4DF3A532B7F76A7003A888F /* ContentView.swift */,
 				B4DF3A552B7F76A9003A888F /* Assets.xcassets */,
+				B46942C22B83944300CD2039 /* View */,
 				B4DF3A572B7F76A9003A888F /* Preview Content */,
 			);
 			path = Script;
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46942C42B83946800CD2039 /* ImportScriptView.swift in Sources */,
 				B4DF3A542B7F76A7003A888F /* ContentView.swift in Sources */,
 				B4DF3A522B7F76A7003A888F /* ScriptApp.swift in Sources */,
+				B46942C62B83947500CD2039 /* LibraryScriptsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
