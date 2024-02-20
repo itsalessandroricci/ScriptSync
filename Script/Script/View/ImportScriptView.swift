@@ -37,8 +37,8 @@ struct ImportScriptView: View {
                     
                     
                 }
-                .foregroundColor(.black)
-                .opacity(0.4)
+                .foregroundColor(Color("black1"))
+//                .opacity(0.4)
                 
                 
                 .padding()
@@ -57,14 +57,15 @@ struct ImportScriptView: View {
                 }
             }
         }
-        .foregroundColor(.black)
+        .foregroundColor(Color("black1"))
         .opacity(0.4)
+        
         .navigationBarItems(trailing: Button(action:
                                                 {
             showingFilePicker = true
         })
                             {
-            Image(systemName: "plus").foregroundColor(.black)
+            Image(systemName: "plus")
                 .font(.system(size: 20))
         })
         .navigationTitle("Scripts")
