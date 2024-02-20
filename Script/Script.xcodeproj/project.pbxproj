@@ -29,7 +29,6 @@
 		B4DF3A532B7F76A7003A888F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4DF3A552B7F76A9003A888F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DF3A582B7F76A9003A888F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B4DF3A5F2B7F801A003A888F /* Script.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Script.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +80,6 @@
 		B4DF3A502B7F76A7003A888F /* Script */ = {
 			isa = PBXGroup;
 			children = (
-				B4DF3A5F2B7F801A003A888F /* Script.entitlements */,
 				B4DF3A512B7F76A7003A888F /* ScriptApp.swift */,
 				B4DF3A532B7F76A7003A888F /* ContentView.swift */,
 				B46942CD2B83D7F000CD2039 /* File */,
@@ -314,6 +312,7 @@
 				DEVELOPMENT_TEAM = 4X56JBA2R7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScriptSync;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -349,6 +348,7 @@
 				DEVELOPMENT_TEAM = 4X56JBA2R7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScriptSync;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
