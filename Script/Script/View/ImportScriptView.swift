@@ -10,6 +10,7 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 struct ImportScriptView: View {
+    @EnvironmentObject var importedFileModel: ImportedFileModel
     
     @State private var searchText = ""
     let columns: [GridItem] =
@@ -17,7 +18,8 @@ struct ImportScriptView: View {
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
-    @State private var fileURL: URL?
+   
+    
     @State private var showingFilePicker = false
     
     var body: some View {
@@ -48,7 +50,8 @@ struct ImportScriptView: View {
                     allowsMultipleSelection: false
                 ) { result in
                 do {
-                    fileURL = try result.get().first
+                    let fileURL = try result.get().first
+                    importedFileModel.setFile(fileURL)
                     // Esegui qui l'azione con il file URL selezionato
                     // Ad esempio, puoi leggere il contenuto del file
                 } catch {

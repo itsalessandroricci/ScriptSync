@@ -10,7 +10,11 @@ import PDFKit
 
 class ScriptsViewModel: ObservableObject {
     @Published var scripts: [PDFDocument] = []
+    @Published var selectedScriptIndex: Int? = nil
     
+    func deleteScript(at index: Int) {
+            scripts.remove(at: index)
+        }
 }
 
 extension PDFDocument: Identifiable {

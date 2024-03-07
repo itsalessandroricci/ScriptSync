@@ -9,6 +9,9 @@ import SwiftUI
 import PDFKit
 
 struct ScriptView: View {
+    
+    var viewModel = FileViewModel()
+    
     let pdfDocument: PDFDocument?
     
     init(resourceName: String) {
@@ -32,7 +35,7 @@ struct ScriptView: View {
             
             PDFKitView(showing: self.pdfDocument)
             
-                .navigationTitle("Script Title")
+                
                 .navigationBarItems(
                     
                     trailing: trailingButtons

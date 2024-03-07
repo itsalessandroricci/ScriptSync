@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct ScriptApp: App {
+    
+    @StateObject var importedFileModel = ImportedFileModel()
+    @StateObject var vm: ScriptsViewModel = ScriptsViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ImportScriptView()
+            LibraryScriptsView()
+                .environmentObject(importedFileModel)
+                .environmentObject(vm)
         }
     }
 }
